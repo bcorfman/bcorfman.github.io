@@ -12,7 +12,7 @@ enableEmoji = true
 enableRobotsTXT = true
 
 [params]
-author = "bcorfman"
+author = "Brandon Corfman"
 description = "Software Development using AI. Investigating the buzz around Large Language Models."
 copyright = "Copyright © 2024, Brandon Corfman"
 languageCode = "en-US"
@@ -22,6 +22,7 @@ location = "MD, US"
 github = "bcorfman"
 favicon = "images/favicon.png"
 avatar = "images/avatar.png"
+headerIcon = "images/icon.svg"
 
 [frontmatter]
 lastmod = ["lastmod", ":fileModTime", ":default"]
