@@ -21,8 +21,7 @@ lastmod = true
 location = "MD, US"
 github = "bcorfman"
 favicon = "images/favicon.png"
+avatar = "images/avatar.png"
 
 [frontmatter]
 lastmod = ["lastmod", ":fileModTime", ":default"]
-
-
