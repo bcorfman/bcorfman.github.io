@@ -1,0 +1,28 @@
+# Base URL used when generating links to your pages
+# Set to the URL for your site
+baseURL = 'https://bcorfman.github.io/'
+
+# The name of this wonderful theme ;-).
+theme = 'github-style'
+title = "Brandon Corfman"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+timeZone = 'US/Eastern'
+enableEmoji = true
+enableRobotsTXT = true
+
+[params]
+author = "bcorfman"
+description = "Software Development using AI. Investigating the buzz around Large Language Models."
+copyright = "Copyright © 2024, Brandon Corfman"
+languageCode = "en-US"
+rss = true
+lastmod = true
+location = "MD, US"
+github = "bcorfman"
+favicon = "images/favicon.png"
+
+[frontmatter]
+lastmod = ["lastmod", ":fileModTime", ":default"]
+
+

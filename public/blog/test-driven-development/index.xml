@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test-Driven-Development on Software Development using AI</title>
+    <link>http://localhost:1313/blog/test-driven-development/</link>
+    <description>Recent content in Test-Driven-Development on Software Development using AI</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2024, Brandon Corfman.</copyright>
+    <lastBuildDate>Sun, 04 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/test-driven-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A small but complete AI-written program</title>
+      <link>http://localhost:1313/a-small-but-complete-ai-written-program/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/a-small-but-complete-ai-written-program/</guid>
+      <description>### Task: Counting Tic-Tac-Toe board states with Claude 3.5 Sonnet As promised, I&amp;rsquo;m starting my AI-chat-based development task with something I consider relatively simple. Over the past year or so when I&amp;rsquo;ve done this, prior versions of LLMs like ChatGPT or Claude would have a challenging time with this small search task. When starting with an empty board, there are only nine possible moves that can be made (at most) before someone has won or a tie has been reached.</description>
+    </item>
+  </channel>
+</rss>

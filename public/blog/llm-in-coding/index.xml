@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Llm-in-Coding on Software Development using AI</title>
+    <link>http://localhost:1313/blog/llm-in-coding/</link>
+    <description>Recent content in Llm-in-Coding on Software Development using AI</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2024, Brandon Corfman.</copyright>
+    <lastBuildDate>Wed, 31 Jul 2024 08:59:03 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/llm-in-coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home</title>
+      <link>http://localhost:1313/</link>
+      <pubDate>Wed, 31 Jul 2024 08:59:03 -0400</pubDate>
+      <guid>http://localhost:1313/</guid>
+      <description>&amp;ldquo;It is our job to create computer technology such that nobody has to program. And that the programming language is human.&amp;rdquo; - from an interview with NVIDIA CEO Jensen Huang.&#xA;So, how close are we to this reality? I&amp;rsquo;ve got some ideas for mid-sized software projects, including challenging ones that need graphics and sound. I&amp;rsquo;m curious - could AI help me build these while I act as project manager? I&amp;rsquo;m blogging about it because while people are testing AI, I haven&amp;rsquo;t seen many document their approach and thought process as they build something complex.</description>
+    </item>
+  </channel>
+</rss>

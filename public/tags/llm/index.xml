@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Llm on Software Development with LLMs</title>
+		<link>http://localhost:1313/tags/llm/</link>
+		<description>Recent content in Llm on localhost:1313</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<lastBuildDate>Wed, 31 Jul 2024 08:59:03 -0400</lastBuildDate>
+		<atom:link href="http://localhost:1313/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>About</title>
+			<link>http://localhost:1313/about/about/</link>
+			<pubDate>Wed, 31 Jul 2024 08:59:03 -0400</pubDate>
+			<guid>http://localhost:1313/about/about/</guid>
+			<description>
+			“It is our job to create computer technology such that nobody has to program. And that the programming language is human.” - NVIDIA CEO …
+			</description>
+		</item>
+	</channel>
+</rss>
