@@ -4,7 +4,7 @@ baseURL = 'https://bcorfman.github.io/'
 
 # The name of this wonderful theme ;-).
 theme = 'github-style'
-title = "Brandon Corfman"
+title = 'Brandon Corfman'
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 timeZone = 'US/Eastern'
@@ -12,17 +12,17 @@ enableEmoji = true
 enableRobotsTXT = true
 
 [params]
-author = "Brandon Corfman"
-description = "Software Development using AI. Investigating the buzz around Large Language Models."
-copyright = "Copyright © 2024, Brandon Corfman"
-languageCode = "en-US"
+author = 'Brandon Corfman'
+description = 'Software Development using AI. Investigating the buzz around Large Language Models.'
+copyright = 'Copyright © 2024, Brandon Corfman'
+languageCode = 'en-US'
 rss = true
 lastmod = true
-location = "MD, US"
-github = "bcorfman"
-favicon = "images/favicon.png"
-avatar = "images/avatar.png"
-headerIcon = "images/icon.svg"
+location = 'MD, US'
+github = 'bcorfman'
+favicon = '/images/favicon.png'
+avatar = '/images/avatar.png'
+headerIcon = '/images/icon.svg'
 
 [frontmatter]
-lastmod = ["lastmod", ":fileModTime", ":default"]
+lastmod = ['lastmod', ':fileModTime', ':default']
