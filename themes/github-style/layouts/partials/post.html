@@ -81,16 +81,24 @@
                   </div>
                 </div>
               </div>
-              
+      
               <div>
-              <script src="https://utteranc.es/client.js"
-              repo="bcorfman/ai-blog-utterances"
-              issue-term="title"
-              label="ai-blog"
-              theme="github-dark"
-              crossorigin="anonymous"
-              async>
-              </script>
+                <div id="utteranc-comments">
+                  <script>
+                    const isLight = document.body.classList.contains('theme-light');
+                    const utterancTheme = 'github-' + (isLight ? 'light' : 'dark');
+                    document.write(
+                      '<' + 'script src="https://utteranc.es/client.js"'
+                      + ' repo="bcorfman/bcorfman.github.io"'
+                      + ' issue-term="title"'
+                      + ' label="ai-blog"'
+                      + ' theme="' + utterancTheme + '"'
+                      + ' crossorigin="anonymous"'
+                      + ' async>'
+                      + '<' + '/script>'
+                    );
+                  </script>
+                </div>
               </div>
               
               <div class="Box-body px-5 pb-5" style="z-index: 1">
