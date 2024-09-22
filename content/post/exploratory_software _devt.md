@@ -4,11 +4,11 @@ summary = "Best practice for branching and versioning with prompt engineering"
 date = "2024-09-21"
 draft = false
 +++
-### Task: Exploratory Software Development with Claude 3.5 Sonnet
+## Task: Exploratory Software Development with Claude 3.5 Sonnet
 
 I've spent a fair amount of time since [my first blog post](https://bcorfman.github.io/post/tic_tac_toe_board_states/) doing prompt-based software development. I tried my same techniques with a variety of program styles. I discovered as I did prior that if I make mistakes in my specification, or Claude makes mistakes in its interpretation of my spec, the AI's ability to keep a coherent picture of what I'm asking is compromised. I've talked with other software developers who scaled back what they asked the LLM to do as a result, keeping the code they were asking for at a function level, or perhaps just at the app level but quite small and focused. That's not what I'm trying to do though; I need AI software development at the project level. Secondarily, I need to use Claude's chat feature instead of its API access, unfortunately, because API use is far too expensive in comparison.
 
-## Experiment 1: Maintain a requirements file to go with the code
+### Experiment 1: Maintain a requirements file to go with the code
 
 *[I'm learning that when I have an idea about how to potentially use Claude more effectively, I corroborate the idea with Claude itself to make sure I'm on the right track.]*
 
@@ -56,7 +56,7 @@ This approach allows you to guide the update process while still leveraging my a
 
 ---
 
-## Experiment 2: Adding in versioning and change management
+### Experiment 2: Adding in versioning and change management
 
 *[I started running into trouble with scaling up Experiment 1 when I moved on to incorporating the Actions into a [game I was developing](https://github.com/bcorfman/megamania), also via Claude. Obviously, other than the demo I had created prior, there was no other code available on how to use the Actions inside a game. This is essentially one-shot learning for Claude, and unsurprisingly it didn't do that well. It tried certain actions out of order like Move(Repeat) instead of Repeat(Move), which the library fortunately refuses to accommodate because it's a logic error. After fumbling several times trying to error correct its mistakes and quickly getting the code and requirements files so messed up that I couldn't easily pick out parts I wanted to keep, I decided I should ask Claude about a better development method.]*
 
@@ -320,11 +320,11 @@ This version provides a more realistic implementation using a specific weather A
 
 ---
 
-## Wrap-up
+### Wrap-up
 
 Part of my difficulties with using an LLM for software development is being forced to use Claude's chat interface to keep my AI interaction costs down. If I was able to use Claude's API inside Visual Studio Code (my code editor of choice), then it would be easier to adopt a standard workflow using Git for CM. *However*, I did try to keep both my code and requirements as text files inside my game directory and use Git on my own, but the back-and-forth copy and paste, along with keeping up with commits at every change is pure tedium. I like the simpler approach of staying in the chat, using Claude for CM, and committing code and requirements at significant checkpoints. It's also a superior practice to have Claude keep track of the changing requirements and just write them out comprehensively at the conclusion of a chat session.
 
-I have definitely experienced an order of magnitude increase in the complexity of software development tasks that I can ask Claude to perform once I adopted the practices of requirements tracking plus CM with versioning. (For ease of reference, I will call this technique RT+CM.) In conjunction with Claude's Projects feature that allows the use of more files for context, this results in a massive productivity boost. When I've talked with other developers about their use of AI, they have said they tend to ask LLMs to write single functions only; trying to scale up beyond the single function level often resulted in too much rework to make it worthwhile. I think RT+CM is a best practice that I have found to be a huge productivity boost, and I think it should be shared more widely to make larger-scale LLM software development a viable approach.
+I have definitely experienced an order of magnitude increase in the complexity of software development tasks that I can ask Claude to perform once I adopted the practices of requirements tracking plus CM with versioning. (For ease of reference, I will call this technique RT+CM.) In conjunction with Claude's Projects feature that allows the use of more files for context, this results in a massive productivity boost. I think RT+CM with LLMs should be shared more widely to make larger-scale AI software development a viable approach.
 
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
