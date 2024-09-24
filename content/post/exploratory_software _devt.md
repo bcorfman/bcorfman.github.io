@@ -303,6 +303,8 @@ Requirements Document (V5):
 6. The greeting and weather information should be printed on the same line.
 ```
 
+*[Hmm, that's interesting ... requirement 6 still keeps the two sentences on the same line. Did Claude keep this former idea as a requirement or just as my preference? That may be something to investigate later ...]*
+
 Key changes in this version:
 
 1. Added a `get_gps_location()` function to simulate getting GPS coordinates from the user.
