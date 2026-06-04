@@ -1,0 +1,29 @@
+id: project-1
+assets:
+  images: {}
+  spriteSheets: {}
+  fonts: {}
+audio:
+  sounds: {}
+inputMaps: {}
+collections: {}
+counters: {}
+scenes:
+  scene-1:
+    id: scene-1
+    world:
+      width: 1024
+      height: 768
+    entities: {}
+    groups: {}
+    attachments: {}
+    eventBlocks: {}
+    behaviors: {}
+    actions: {}
+    conditions: {}
+    backgroundLayers: []
+    collisionRules: []
+    triggers: []
+initialSceneId: scene-1
+title: zoof
+publishGithubPagesRoute: zoof
